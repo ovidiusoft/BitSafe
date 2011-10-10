@@ -154,7 +154,7 @@ read_password () {
 
 lockscreen_activate () {
 	test -z "$1" && exit 1
-	if storage_mounted; then sudo -u user echo "$1" >/$BITSAFE_STORAGE_MOUNTPOINT/.phash
+	if storage_mounted; then echo "$1" >/$BITSAFE_STORAGE_MOUNTPOINT/.phash
 	else echo "$1" >/tmp/.phash
 	fi
 	echo "user:$1" | sudo chpasswd -e
