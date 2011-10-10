@@ -1,0 +1,13 @@
+
+. /lib/bitsafe-func
+
+APPSTOUID="bitsafe-mount-storage bitsafe-umount-storage bitsafe-format-storage bitsafe-enter-passwd"
+WRAPPERS_DIR="storage_wrappers"
+
+addgroup --gid 4999 $BITSAFE_STORAGE_GROUP
+
+# Add bitsafe scripts to sudoers in order to be launched with sudo
+
+# Add wrapped bins to sudoers to let the user start them with persistent group
+
+

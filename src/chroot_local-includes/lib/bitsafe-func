@@ -18,6 +18,7 @@
 BITSAFE_LIVE_MOUNTPOINT="/live/image"
 BITSAFE_STORAGE_MOUNTPOINT="/storage"
 BITSAFE_STORAGE_MAPNAME="bitsafe_storage"
+BITSAFE_STORAGE_GROUP="persistent"
 
 BITSAFE_STORAGEUSERS_PID="/tmp/storageusers-pid"
 
