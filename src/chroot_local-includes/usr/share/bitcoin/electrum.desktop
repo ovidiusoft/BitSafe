@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Electrum
+Comment=Electrum is a light client for the Bitcoin crypto-currency network.
+GenericName=Electrum Bitcoin Client
+X-GNOME-FullName=Electrum Bitcoin Client
+Exec=/opt/electrum/client/electrum.py
+Terminal=false
+Type=Application
+Icon=bitcoin-blue
+Encoding=UTF-8
+Categories=Network
+StartupNotify=true

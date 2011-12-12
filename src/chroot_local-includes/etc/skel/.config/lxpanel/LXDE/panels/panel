@@ -62,6 +62,9 @@ Plugin {
         Button {
             id=/usr/share/applications/bitcoin.desktop
         }
+        Button {
+	    id=/usr/share/applications/electrum.desktop
+        }
     }
 }
 

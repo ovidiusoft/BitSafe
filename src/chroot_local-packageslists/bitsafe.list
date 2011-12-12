@@ -23,3 +23,6 @@ iptables wireless-tools wpasupplicant firmware-iwlwifi
 #Misc
 matchbox-keyboard libnotify-bin gettext
 
+#Electrum
+python-gtk2 python-setuptools
+
