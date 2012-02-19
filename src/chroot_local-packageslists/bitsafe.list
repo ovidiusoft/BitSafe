@@ -24,5 +24,6 @@ iptables wireless-tools wpasupplicant firmware-iwlwifi
 matchbox-keyboard libnotify-bin gettext
 
 #Electrum
-python-gtk2 python-setuptools
+python-gtk2 python-setuptools pyqt4-dev-tools
+
 

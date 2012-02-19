@@ -4,3 +4,5 @@ cd /opt
 git clone git://gitorious.org/electrum/electrum.git
 easy_install ecdsa
 easy_install slowaes
+cd electrum/client/
+pyrcc4 icons.qrc -o icons_rc.py
